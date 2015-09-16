@@ -1,0 +1,12 @@
+# elementary
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+
+# standard/skipped:
+# /.idea/workspace.xml
+# /.idea/libraries
+# instead: skip the whole shebang
+.idea
