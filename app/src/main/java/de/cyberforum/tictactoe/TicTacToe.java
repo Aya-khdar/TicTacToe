@@ -106,7 +106,7 @@ public class TicTacToe extends AppCompatActivity {
 
     protected static boolean currentIsCross = true;
 
-    public String checkNeighbors(){
+    public String checkNeighbors(Button button){
         int len = btnArray[0].length;
         for(int i=0; i<btnArray[0].length; i++){
             Button b1 = btnArray[i][0];
@@ -155,7 +155,7 @@ public class TicTacToe extends AppCompatActivity {
 //        String stringID = getResources().getResourceName(idButton);
 //        int intId = getIntId(stringID);
 //        int [] arrayIndex = getIndex(intId);
-        return checkNeighbors();
+        return checkNeighbors(button);
 
     }
 }
